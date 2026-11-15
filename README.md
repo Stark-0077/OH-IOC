@@ -5,11 +5,28 @@
 </p><p align="center">
   <a href="#overview">Overview</a> ·
   <a href="#numerical-examples">Numerical Examples</a> ·
-  <a href="#code-availability">Code Availability</a> ·
+  <a href="#install-and-run">Install and Run</a> ·
   <a href="#contact">Contact</a>
 </p>
 
 # Overview
+
+How can we learn an optimal control objective from a demonstration when the task's duration is itself an unknown optimization variable?
+
+This paper considers online optimal-horizon inverse optimal control (OH-IOC) for continuous-time systems. Given sequential, discrete-time measurements of optimal states and controls, the proposed extended Kalman filter (EKF) recursively estimates the cost-function parameters and the optimal horizon.
+
+# Numerical Examples
+
+The paper evaluates the method on two representive systems: double integator and unicycle. 
+
+| System | Dynamics | Estimated cost parameters |
+| :--- | :--- | :--- |
+| Double integrator | Linear | Control effort and terminal state penalties |
+| Unicycle | Nonlinear | Translational and angular control effort, terminal position and heading penalties |
+
+The experiments examine parameter and horizon estimation errors across measurement types and noise levels, together with runtime per update.
+
+# Install and Run
 
 This folder reproduces the numerical results in Section V of the paper: Table I,
 Fig. 1, and the perturbed-initial-state studies described in the text.
@@ -52,7 +69,7 @@ Other settings, such as the number of trials or worker processes, are at the top
 
 Equation, proposition and algorithm numbers in the code refer to the paper.
 
-## Contact
+# Contact
 
 For questions about this work, please contact
 [Tian Zhao](mailto:tian.zhao1@anu.edu.au).
