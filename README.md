@@ -1,4 +1,15 @@
-# Online optimal-horizon inverse optimal control: simulation code
+<h1 align="center">Online Optimal-Horizon Inverse Optimal Control</h1><p align="center">
+  Tian Zhao · Ding Zhang · Tin Tran · Philipp Braun · Timothy L. Molloy
+</p><p align="center">
+  Australian National University · Monash University
+</p><p align="center">
+  <a href="#overview">Overview</a> ·
+  <a href="#numerical-examples">Numerical Examples</a> ·
+  <a href="#code-availability">Code Availability</a> ·
+  <a href="#contact">Contact</a>
+</p>
+
+# Overview
 
 This folder reproduces the numerical results in Section V of the paper: Table I,
 Fig. 1, and the perturbed-initial-state studies described in the text.
@@ -40,3 +51,8 @@ Other settings, such as the number of trials or worker processes, are at the top
 | `generate_fig_1.py` | Fig. 1, which shows trial 28 of the Table I study at the lowest noise level |
 
 Equation, proposition and algorithm numbers in the code refer to the paper.
+
+## Contact
+
+For questions about this work, please contact
+[Tian Zhao](mailto:tian.zhao1@anu.edu.au).
