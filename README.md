@@ -19,10 +19,10 @@ This paper considers online optimal-horizon inverse optimal control (OH-IOC) for
 
 The paper evaluates the method on two representive systems: double integator and unicycle. 
 
-| System | Dynamics | Estimated cost parameters |
-| :--- | :--- | :--- |
-| Double integrator | Linear | Control effort and terminal state penalties |
-| Unicycle | Nonlinear | Translational and angular control effort, terminal position and heading penalties |
+| System            | Dynamics  | State dimension | Control dimension | Unknown parameter dimension |
+| ----------------- | --------- | --------------- | ----------------- | --------------------------- |
+| Double integrator | Linear    | 2               | 1                 | 2                           |
+| Unicycle          | Nonlinear | 3               | 2                 | 4                           |
 
 The experiments examine parameter and horizon estimation errors across measurement types and noise levels, together with runtime per update.
 
