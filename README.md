@@ -6,7 +6,6 @@
   <a href="#overview">Overview</a> ·
   <a href="#numerical-examples">Numerical Examples</a> ·
   <a href="#install-and-run">Install and Run</a> ·
-  <a href="#contact">Contact</a>
 </p>
 
 ## Overview
@@ -69,7 +68,3 @@ Other settings, such as the number of trials or worker processes, are at the top
 
 Equation, proposition and algorithm numbers in the code refer to the paper.
 
-## Contact
-
-For questions about this work, please contact
-[Tian Zhao](mailto:tian.zhao1@anu.edu.au).
